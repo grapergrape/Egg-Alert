@@ -87,7 +87,12 @@ Egg-detector on arduino nano 33 ble
   
   git commit -m "short descirption of changes made to the master code"
   
+  
+  The first time you're pushing changes:
+  git push --set-upstream origin your-name
+
+  Next time:
   git push -origin your-name
   
   replace your-name with name of the git branch from which the changes to the master branch are originating.
-  Done
+
