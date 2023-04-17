@@ -26,7 +26,7 @@
 #define EI_CAMERA_RAW_FRAME_BUFFER_ROWS     120
 
 #define DWORD_ALIGN_PTR(a)   ((a & 0x3) ?(((uintptr_t)a + 0x4) & ~(uintptr_t)0x3) : a)
-
+#define NEKI 2
 /*
  ** NOTE: If you run into TFLite arena allocation issue.
  **
