@@ -55,7 +55,7 @@ const ei_config_tflite_graph_t ei_config_tflite_graph_0 = {
     .implementation_version = 1,
     .model = trained_tflite,
     .model_size = trained_tflite_len,
-    .arena_size = 63059
+    .arena_size = 100691
 };
 
 const ei_learning_block_config_tflite_graph_t ei_learning_block_config_0 = {
@@ -87,11 +87,11 @@ const ei_model_performance_calibration_t ei_calibration = {
 };
 
 
-const ei_impulse_t impulse_204774_6 = {
+const ei_impulse_t impulse_204774_10 = {
     .project_id = 204774,
     .project_owner = "Marjan",
     .project_name = "egg_detection",
-    .deploy_version = 6,
+    .deploy_version = 10,
 
     .nn_input_frame_size = 27648,
     .raw_sample_count = 9216,
@@ -132,6 +132,6 @@ const ei_impulse_t impulse_204774_6 = {
     .categories = ei_classifier_inferencing_categories
 };
 
-const ei_impulse_t ei_default_impulse = impulse_204774_6;
+const ei_impulse_t ei_default_impulse = impulse_204774_10;
 
 #endif // _EI_CLASSIFIER_MODEL_METADATA_H_

@@ -1,2 +1,5 @@
+arduino-libraries/Arduino_HTS221@^1.0.0
+arduino-libraries/Arduino_LPS22HB@^1.0.2
 arduino-libraries/Arduino_OV767X@^0.0.2
+arduino-libraries/ArduinoBLE@^1.3.4
 lib\ei-egg_detection-arduino-1.0.3.zip
